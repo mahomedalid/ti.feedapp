@@ -1,0 +1,20 @@
+<Alloy>
+	<View class="container">
+		<ListView id="allNews" defaultItemTemplate="templateNews">
+			<Templates>
+				<ItemTemplate name="templateNews" class="item">
+					<View class="itemContent">
+						<ImageView bindId="thumb" class="thumb" />
+						<Label bindId="title" class="title" />
+						<Label bindId="summary" class="summary" />
+						<View class="separator" />
+					</View>
+				</ItemTemplate>
+			</Templates>
+
+			<ListSection id="section">
+				<ListItem title="Test Title" summary="Test summary" thumb="test.png" ></ListItem>
+			</ListSection>
+		</ListView>
+	</View>
+</Alloy>

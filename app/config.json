@@ -1,0 +1,19 @@
+{
+	"global": {
+		"brandPrimary": "#484950", 
+		"brandSecondary": "#333333",
+		"brandSuccess": "#5cb85c", 
+		"minVersion": "1.8.5"
+	},
+	"env:development": {},
+	"env:test": {},
+	"env:production": {},
+	"os:android": {},
+	"os:blackberry": {},
+	"os:ios": {},
+	"os:mobileweb": {},
+	"os:windows": {},
+	"dependencies": {
+		"com.jolicode.pullToRefresh": "1.0"
+	}
+}

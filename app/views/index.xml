@@ -1,0 +1,7 @@
+<Alloy>
+    <Widget src="com.jolicode.pullToRefresh" id="pulltorefresh"/>
+		
+    <Window title="Maho Feed Reader">
+		<Require type="view" src="listView" id="listFeed"/>
+	</Window>
+</Alloy>
