@@ -9,6 +9,9 @@
   <description>This app is a proof of concept of titanium for a feed reader</description>
   <copyright>2016 Mahomedalid Pacheco</copyright>
   <icon>appicon.png</icon>
+  
+  <property name="feedurl" type="string">http://rss2json.com/api.json?rss_url=https%3A%2F%2Fnews.ycombinator.com%2Frss</property>
+
   <navbar-hidden>false</navbar-hidden>
   <!-- Android: Set to true for the splash screen to take the full screen -->
   <fullscreen>true</fullscreen>
